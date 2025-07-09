@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.app-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8ffae 0%, #43c6ac 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.show-btn {
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 30px;
+  background: #ffb347;
+  color: #fff;
+  font-family: 'Pacifico', cursive;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+  cursor: pointer;
+  margin-bottom: 2rem;
+  transition: background 0.3s;
+}
+.show-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.card-container {
+  perspective: 1200px;
+  min-height: 300px;
+}
+
+.greeting-card {
+  width: 350px;
+  min-height: 220px;
+  background: #fffbe7;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5rem;
+  color: #333;
+  transform: translateY(-100px) scale(0.8);
+  opacity: 0;
+  transition: all 0.7s cubic-bezier(.68,-0.55,.27,1.55);
+}
+
+.card-container.popdown .greeting-card {
+  transform: translateY(0) scale(1.05);
+  opacity: 1;
+  box-shadow: 0 16px 40px rgba(255,183,71,0.25), 0 8px 32px rgba(0,0,0,0.18);
+}
+
+.elevate {
+  animation: elevate 2s infinite alternate ease-in-out;
+}
+
+@keyframes elevate {
+  0% { box-shadow: 0 8px 32px rgba(0,0,0,0.18); transform: translateY(0) scale(1.05); }
+  100% { box-shadow: 0 24px 60px rgba(255,183,71,0.18); transform: translateY(-10px) scale(1.08); }
+}
