@@ -58,8 +58,8 @@
 
 /* Responsive text for card content */
 .card-content p {
-  font-size: clamp(0.95rem, 2vw, 1.15rem);
-  line-height: 1.5;
+  font-size: clamp(0.95rem, 6vw, 1.15rem);
+  line-height: 2;
   word-break: break-word;
   margin: 0;
 }
@@ -72,14 +72,14 @@
     font-size: clamp(1rem, 4vw, 2rem);
   }
   .card-content p {
-    font-size: clamp(0.9rem, 3vw, 1.50rem);
+    font-size: clamp(0.9rem, 5vw, 1.50rem);
   }
   .show-btn {
     font-size: clamp(1rem, 4vw, 1.2rem);
     padding: 0.7rem 1rem;
   }
   h1 {
-    font-size: clamp(1.2rem, 6vw, 1.6rem);
+    font-size: clamp(1.2rem, 3vw, 1.6rem);
     word-break: break-word;
     margin-bottom: 1rem;
   }
@@ -93,7 +93,7 @@
     padding: 2rem 1rem;
   }
   .card-content p {
-    font-size: clamp(1rem, 2vw, 1.2rem);
+    font-size: clamp(1rem, 3vw, 1.2rem);
   }
   .show-btn {
     font-size: clamp(1.1rem, 2vw, 1.3rem);
@@ -113,7 +113,7 @@
     padding: 2rem 1.2rem;
   }
   .card-content p {
-    font-size: 1.15rem;
+    font-size: 1.50rem;
   }
   .show-btn {
     font-size: 1.5rem;
