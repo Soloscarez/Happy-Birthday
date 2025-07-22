@@ -14,12 +14,12 @@ function App() {
   return (
     <div className="app-bg">
       <button className="show-btn" onClick={handleShowCard} disabled={showCard}>
-        Open Birthday Card
+        Just for U
       </button>
       <div className={`card-container${showCard ? ' popdown' : ''}`}>
         {showCard && (
           <div className="greeting-card elevate">
-            <h1>Happy Birthday, SRISHTI!</h1>
+            <h1>Happy Birthday, name !</h1>
             <div className="card-content">
               <p>It's been a long time…<br/>
               Honestly, I've lost track of how many times I wanted to talk, wanted to tell you something — but stayed quiet. Perhaps because your silence was already louder than words. Perhaps because I knew I was never truly part of your world.<br/><br/>
@@ -31,7 +31,7 @@ function App() {
               Perhaps you'll never get what I saw in you. Perhaps you'll never even care. And that's fine. But this — this was something I had to tell you. For me.
               </p>
             </div>
-            <span role="img" aria-label="party">🎉🎂🎈</span>
+            <span role="img" aria-label="party">🎁</span>
           </div>
         )}
       </div>
