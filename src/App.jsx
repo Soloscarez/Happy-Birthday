@@ -19,7 +19,7 @@ function App() {
       <div className={`card-container${showCard ? ' popdown' : ''}`}>
         {showCard && (
           <div className="greeting-card elevate">
-            <h1>Happy Birthday, name !</h1>
+            <h1>Happy Birthday, SRISHTI !</h1>
             <div className="card-content">
               <p>It's been a long time…<br/>
               Honestly, I've lost track of how many times I wanted to talk, wanted to tell you something — but stayed quiet. Perhaps because your silence was already louder than words. Perhaps because I knew I was never truly part of your world.<br/><br/>
