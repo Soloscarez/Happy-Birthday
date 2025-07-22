@@ -10,6 +10,7 @@
 }
 
 .show-btn {
+  margin-top: 7rem;
   font-size: clamp(10.1rem, 2.5vw, 1.5rem);
   padding: 0.8rem 1.5rem;
   border: none;

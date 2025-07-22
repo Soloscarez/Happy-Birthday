@@ -16,10 +16,12 @@ function App() {
       <button className="show-btn" onClick={handleShowCard} disabled={showCard}>
         Just for U
       </button>
+      <div>
+        <div><img width="350" src="https://imgs.search.brave.com/bDXiRwZy_lNKztxRkUSoo4izViaMs5zYXcwayHkKGRk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cG5nYWxsLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMTMvQmly/dGhkYXktQ2FrZS1Q/TkctSW1hZ2VzLnBu/Zw" alt="" /></div>
       <div className={`card-container${showCard ? ' popdown' : ''}`}>
         {showCard && (
           <div className="greeting-card elevate">
-            <h1>Happy Birthday, SRISHTI !</h1>
+            <h1>Happy Birthday, name !</h1>
             <div className="card-content">
               <p>It's been a long time…<br/>
               Honestly, I've lost track of how many times I wanted to talk, wanted to tell you something — but stayed quiet. Perhaps because your silence was already louder than words. Perhaps because I knew I was never truly part of your world.<br/><br/>
@@ -34,6 +36,7 @@ function App() {
             <span role="img" aria-label="party">🎁</span>
           </div>
         )}
+      </div>
       </div>
     </div>
   );
