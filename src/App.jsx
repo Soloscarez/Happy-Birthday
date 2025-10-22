@@ -32,7 +32,7 @@ function App() {
               Perhaps you'll never get what I saw in you. Perhaps you'll never even care. And that's fine. But this — this was something I had to tell you. For me.
               </p>
             </div>
-            <span role="img" aria-label="party">🎁-TGV</span>
+            <span role="img" aria-label="party">🎁-SOLZ</span>
           </div>
         )}
       </div>
