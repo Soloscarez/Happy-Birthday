@@ -17,7 +17,7 @@ function App() {
         💝
       </button>
       <div>
-        <div><img width="350" src="https://imgs.search.brave.com/bDXiRwZy_lNKztxRkUSoo4izViaMs5zYXcwayHkKGRk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cG5nYWxsLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMTMvQmly/dGhkYXktQ2FrZS1Q/TkctSW1hZ2VzLnBu/Zw" alt="" /></div>
+        <div><img width="350" src="https://wallpapers.com/bts-jung-kook" alt="" /></div>
       <div className={`card-container${showCard ? ' popdown' : ''}`}>
         {showCard && (
           <div className="greeting-card elevate">
