@@ -17,7 +17,7 @@ function App() {
         💝
       </button>
       <div>
-        <div><img width="350" src="https://wallpapers.com/bts-jung-kook" alt="" /></div>
+        <div><img width="350" src="https://wallpapers.com/images/featured/bts-jung-kook-4v1eut7nmlo77ubw.jpg" alt="" /></div>
       <div className={`card-container${showCard ? ' popdown' : ''}`}>
         {showCard && (
           <div className="greeting-card elevate">
