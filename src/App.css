@@ -38,10 +38,6 @@
   max-width: 400px;
   min-height: 220px;
   background: #f4b3da;
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text x="50" y="50" font-size="80" text-anchor="middle" dominant-baseline="central" fill="rgba(0,0,0,0.08)">🎤</text></svg>');
-  background-size: 80px 80px;
-  background-repeat: repeat;
-  background-position: 0 0;
   border-radius: 20px;
   box-shadow: 0 8px 32px rgba(0,0,0,0.18);
   padding: 2rem 1.2rem;
@@ -63,9 +59,15 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text x="50" y="50" font-size="80" text-anchor="middle" dominant-baseline="central" fill="rgba(0,0,0,0.08)">🎤</text></svg>');
-  background-size: 80px 80px;
+  background-image: 
+    url('https://media.bts.bighitmusic.com/upload/share/2021/12/16/1639642800749_jk1.jpg'),
+    url('https://media.bts.bighitmusic.com/upload/share/2021/12/16/1639642800749_jk1.jpg'),
+    url('https://media.bts.bighitmusic.com/upload/share/2021/12/16/1639642800749_jk1.jpg');
+  background-size: 100px 100px;
   background-repeat: repeat;
+  background-position: 0 0, 50px 50px, 25px 75px;
+  background-attachment: fixed;
+  opacity: 0.15;
   pointer-events: none;
   z-index: 0;
 }
