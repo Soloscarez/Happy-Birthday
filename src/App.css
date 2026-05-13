@@ -38,6 +38,9 @@
   max-width: 400px;
   min-height: 220px;
   background: #f4b3da;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><text x="20" y="40" font-size="30" opacity="0.3">🎤</text><text x="80" y="60" font-size="30" opacity="0.3">🎤</text><text x="140" y="30" font-size="30" opacity="0.3">🎤</text><text x="50" y="100" font-size="30" opacity="0.3">🎤</text><text x="120" y="120" font-size="30" opacity="0.3">🎤</text><text x="30" y="160" font-size="30" opacity="0.3">🎤</text><text x="100" y="180" font-size="30" opacity="0.3">🎤</text></svg>');
+  background-size: 200px 200px;
+  background-repeat: repeat;
   border-radius: 20px;
   box-shadow: 0 8px 32px rgba(0,0,0,0.18);
   padding: 2rem 1.2rem;
@@ -50,26 +53,6 @@
   transition: all 0.7s cubic-bezier(.68,-0.55,.27,1.55);
   position: relative;
   overflow: hidden;
-}
-
-.greeting-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: 
-    url('https://media.bts.bighitmusic.com/upload/share/2021/12/16/1639642800749_jk1.jpg'),
-    url('https://media.bts.bighitmusic.com/upload/share/2021/12/16/1639642800749_jk1.jpg'),
-    url('https://media.bts.bighitmusic.com/upload/share/2021/12/16/1639642800749_jk1.jpg');
-  background-size: 100px 100px;
-  background-repeat: repeat;
-  background-position: 0 0, 50px 50px, 25px 75px;
-  background-attachment: fixed;
-  opacity: 0.15;
-  pointer-events: none;
-  z-index: 0;
 }
 
 .greeting-card > * {
