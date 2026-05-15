@@ -17,7 +17,7 @@ function App() {
         💝
       </button>
       <div>
-        <div><img width="350" src="https://cdn.discordapp.com/attachments/906058355393585156/1504056277507117117/image0.png?ex=6a059910&is=6a044790&hm=f79616d3388b7198e3868a75d2d973157879bd25057f2ad380340d6afcdce39f&" alt="" /></div>
+        <div><img width="350" src="https://discord.com/channels/906058355393585152/906058355393585156/1504056277146534050" alt="" /></div>
       <div className={`card-container${showCard ? ' popdown' : ''}`}>
         {showCard && (
           <div className="greeting-card elevate">
